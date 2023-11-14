@@ -1,7 +1,9 @@
 package polang
 
+import "github.com/Ibukun-tech/dog"
+
 func Dog() string {
-	return "gbo gbo gbo"
+	return dog.Dog() + " gbo gbo gbo"
 }
 func Dogs() string {
 	return "second Barking"
